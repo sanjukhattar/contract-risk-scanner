@@ -1,0 +1,50 @@
+SOFTWARE-AS-A-SERVICE AGREEMENT
+
+This Software-as-a-Service Agreement (the "Agreement") is entered into as of January 15, 2025 (the "Effective Date") by and between Acme Corp, a corporation with its principal office at 100 Market Street, Wilmington, Delaware ("Customer"), and TechVendor Ltd., a company with its principal office at 22 Innovation Way, Austin, Texas ("Vendor").
+
+1. SERVICES AND LICENSE
+1.1 Vendor shall provide Customer with access to its cloud-based workflow automation platform (the "Services") during the Term, in accordance with the service descriptions in Schedule A.
+1.2 Vendor grants Customer a non-exclusive, non-transferable, limited right to access and use the Services for Customer's internal business purposes, for up to 250 named users.
+1.3 Vendor shall use commercially reasonable efforts to make the Services available 99.5% of the time each calendar month, excluding scheduled maintenance.
+
+2. TERM AND RENEWAL
+2.1 The initial term of this Agreement is twenty-four (24) months from the Effective Date (the "Initial Term").
+2.2 Upon expiry of the Initial Term, this Agreement shall automatically renew for successive twenty-four (24) month periods (each a "Renewal Term") unless Customer provides written notice of non-renewal to Vendor at least seven (7) days prior to the end of the then-current term. Vendor is under no obligation to remind Customer of an upcoming renewal date.
+
+3. FEES AND PAYMENT
+3.1 Customer shall pay the annual subscription fee of USD 180,000, invoiced annually in advance and payable within thirty (30) days of the invoice date.
+3.2 Vendor may increase the fees by up to fifteen percent (15%) per year, effective upon written notice to Customer, without any requirement for Customer's consent or approval. Such increases shall apply during both the Initial Term and any Renewal Term.
+3.3 Late payments accrue interest at 1.5% per month. Fees paid are non-refundable.
+
+4. CUSTOMER DATA
+4.1 As between the parties, Customer retains ownership of its pre-existing materials; however, all data, content, and information submitted to or generated through the Services by Customer or its users ("Customer Data") is hereby irrevocably assigned to Vendor.
+4.2 Vendor may use, analyze, aggregate, commercialize, and disclose Customer Data for its own analytics, product development, benchmarking, and any other business purpose, during and after the Term, without compensation to Customer.
+4.3 Vendor shall maintain industry-standard administrative and technical safeguards for the Services.
+
+5. LIMITATION OF LIABILITY
+5.1 Vendor's liability to Customer under this Agreement shall be limited solely to the extent Vendor elects to provide a service credit, and Vendor shall have no other liability for any breach, outage, or data loss.
+5.2 Customer's liability to Vendor arising out of or related to this Agreement, including indemnification obligations, shall be unlimited and shall include direct, indirect, consequential, special, and punitive damages.
+5.3 Customer shall indemnify and hold harmless Vendor from any third-party claims arising from Customer's use of the Services.
+
+6. TERMINATION
+6.1 Either party may terminate this Agreement for convenience by giving the other party thirty (30) days' prior written notice.
+6.2 Either party may terminate this Agreement immediately upon written notice if the other party materially breaches this Agreement and fails to cure such breach within thirty (30) days of notice.
+6.3 Upon termination, Customer's access to the Services shall cease immediately. Termination for convenience by Customer does not entitle it to any refund of prepaid fees.
+
+7. CONFIDENTIALITY
+7.1 Each party shall protect the other's non-public business information with the same degree of care it uses for its own confidential information, and no less than reasonable care. This obligation survives for three (3) years after termination. Customer Data is not considered Customer's Confidential Information under this Agreement.
+
+8. GOVERNING LAW AND DISPUTES
+8.1 This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, USA, without regard to its conflict of laws principles.
+8.2 The parties submit to the exclusive jurisdiction of the state and federal courts located in Wilmington, Delaware.
+
+9. GENERAL
+9.1 This Agreement constitutes the entire agreement between the parties and supersedes all prior discussions. Amendments must be in writing and signed by both parties.
+9.2 Neither party may assign this Agreement without the other's written consent, except that Vendor may assign it freely in connection with a merger or sale of assets.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+ACME CORP                          TECHVENDOR LTD.
+By: ______________________         By: ______________________
+Name: Jane Doe                     Name: Robert Hale
+Title: Chief Operating Officer     Title: Chief Executive Officer
