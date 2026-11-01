@@ -1,0 +1,11 @@
+$r = claude -p "Follow coordinator.md for input/sample_contract.txt" --permission-mode acceptEdits --output-format json | Out-String | ConvertFrom-Json 
+  
+# Write a header row first (only once) 
+if (-not (Test-Path output\cost_log.md)) { 
+    Add-Content output\cost_log.md "| Run time | Cost (USD) | Input tokens | Output tokens |" 
+    Add-Content output\cost_log.md "|---|---|---|---|" 
+} 
+  
+$line = "| " + (Get-Date -Format "yyyy-MM-dd HH:mm") + " | " + $r.total_cost_usd + " | " + 
+$r.usage.input_tokens + " | " + $r.usage.output_tokens + " |" 
+Add-Content output\cost_log.md $line 
