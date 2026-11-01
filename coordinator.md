@@ -6,6 +6,15 @@ Produce a contract risk report for the file named in the request
   
 ## Steps 
 1. Read the contract file once using the Read tool. 
+1a. INPUT CHECK. If the Read fails, or the text is empty, under 200
+   characters, or contains no recognizable contract content (no numbered
+   sections or terms such as "agreement", "party", "term", "shall"), do NOT
+   launch any sub-agents. Write output/risk_report.md containing only:
+   the H1 title (use the file name), a `## Risk Rating` section reading
+   "Not rated: input unreadable or not a contract (<one-line reason>)",
+   a `## Run Info` section (input file · date · model · sub-agents used:
+   none), and the final line `GATE: FAIL`. An unassessable input must never
+   pass. Then stop.
 2. If the request contains `--severity P1`, run in P1-only mode: launch ONLY
    clause-agent and risk-agent in parallel (skip obligation-agent).
    Otherwise, in a single step, launch these three sub-agents IN PARALLEL. 
